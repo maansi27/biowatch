@@ -50,9 +50,7 @@ SUITABILITY  = OUTPUTS / "suitability_grid.csv"
 METRICS_JSON = OUTPUTS / "model_metrics.json"
 STATS_JSON   = OUTPUTS / "suitability_stats.json"
 
-# ──────────────────────────────────────────────────────────────────────────────
-# Lantana palette – leaf greens plus the flower's yellow → orange → pink → magenta
-# ──────────────────────────────────────────────────────────────────────────────
+
 LEAF_DARK = "#1f3d2b"
 LEAF      = "#2f6b3f"
 CREAM     = "#fffaf2"
@@ -63,7 +61,7 @@ PINK      = "#e2558f"
 MAGENTA   = "#a4134a"
 MUTED     = "#6b7b6e"
 
-# Suitability classes follow the colour change of an ageing Lantana floret
+
 CLASS_COLORS = {
     "Very Low":  "#b9d3ae",
     "Low":       "#f9d65c",
@@ -80,7 +78,7 @@ MODEL_COLORS = [PINK, LEAF, ORANGE]
 # Page config
 # ──────────────────────────────────────────────────────────────────────────────
 st.set_page_config(
-    page_title="BioWatch | Lantana camara in India",
+    page_title="BioWatch by maansi| Lantana camara in India",
     page_icon=str(ASSETS / "lantana.svg"),
     layout="wide",
     initial_sidebar_state="expanded",
