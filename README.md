@@ -133,6 +133,12 @@ Pages:
 
 The home-page photo is `web/public/lantana.webp`.
 
+### Deployment
+
+Live site: https://maansi27.github.io/biowatch/
+
+`.github/workflows/ci-cd.yml` runs the Python tests and builds the website on every push and pull request. Every push to `main` that passes both is deployed to GitHub Pages automatically.
+
 ## Streamlit Dashboard (legacy)
 
 ```bash
