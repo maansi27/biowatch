@@ -38,6 +38,11 @@ export default function App() {
     return () => window.removeEventListener("hashchange", onHash);
   }, []);
 
+  useEffect(() => {
+    const label = PAGES.find((p) => p.id === page)?.label;
+    document.title = page === "home" ? "BioWatch | Lantana camara in India" : `${label} | BioWatch`;
+  }, [page]);
+
   return (
     <>
       <header className="topbar">
