@@ -89,6 +89,12 @@ export default function App() {
           Suitability scores show where climate resembles places Lantana already grows. They are not
           confirmed invasion or ecological damage.
         </p>
+        <p className="footer-links">
+          © {new Date().getFullYear()} BioWatch ·{" "}
+          <a href="https://github.com/maansi27/biowatch" target="_blank" rel="noreferrer">
+            Source on GitHub
+          </a>
+        </p>
       </footer>
     </>
   );
