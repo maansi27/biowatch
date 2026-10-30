@@ -54,7 +54,7 @@ export default function App() {
         </a>
         <button
           className="menu-btn"
-          aria-label="Open menu"
+          aria-label={menuOpen ? "Close menu" : "Open menu"}
           aria-expanded={menuOpen}
           onClick={() => setMenuOpen((o) => !o)}
         >
@@ -64,7 +64,12 @@ export default function App() {
         </button>
         <nav className={menuOpen ? "nav open" : "nav"}>
           {PAGES.map((p) => (
-            <a key={p.id} href={`#/${p.id}`} className={p.id === page ? "active" : ""}>
+            <a
+              key={p.id}
+              href={`#/${p.id}`}
+              className={p.id === page ? "active" : ""}
+              aria-current={p.id === page ? "page" : undefined}
+            >
               {p.label}
             </a>
           ))}
