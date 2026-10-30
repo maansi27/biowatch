@@ -80,7 +80,7 @@ def validate_coordinates(df: pd.DataFrame) -> pd.DataFrame:
 def remove_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     """Remove exact duplicate rows (same lat, lon, label)."""
     before = len(df)
-    df = df.drop_duplicates(subset=["latitude", "longitude"])
+    df = df.drop_duplicates(subset=["latitude", "longitude", "species_present"  ])
     log.info(
         "Duplicate removal: %d -> %d rows (removed %d)",
         before, len(df), before - len(df),
