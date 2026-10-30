@@ -1,0 +1,58 @@
+{
+  "model_name": "Random Forest",
+  "features": [
+    "temperature",
+    "rainfall",
+    "elevation",
+    "bio_2",
+    "bio_3",
+    "bio_4",
+    "bio_5",
+    "bio_6",
+    "bio_7",
+    "bio_8",
+    "bio_9",
+    "bio_10",
+    "bio_11",
+    "bio_13",
+    "bio_14",
+    "bio_15",
+    "bio_16",
+    "bio_17",
+    "bio_18",
+    "bio_19"
+  ],
+  "thresholds": {
+    "Very Low": [
+      0.0,
+      0.2
+    ],
+    "Low": [
+      0.2,
+      0.4
+    ],
+    "Moderate": [
+      0.4,
+      0.6
+    ],
+    "High": [
+      0.6,
+      0.8
+    ],
+    "Very High": [
+      0.8,
+      1.01
+    ]
+  },
+  "class_distribution": {
+    "Very Low": 43285,
+    "No Data": 35857,
+    "Low": 9770,
+    "Moderate": 4400,
+    "High": 1942,
+    "Very High": 846
+  },
+  "grid_resolution_deg": 0.1,
+  "total_cells": 96100,
+  "valid_cells": 60243
+}

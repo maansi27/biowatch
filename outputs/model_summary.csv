@@ -1,0 +1,4 @@
+Model,Hold-out AUC,Spatial CV AUC,Precision,Recall,F1
+Logistic Regression,0.8080,0.7451 (+/-0.0643),0.7495,0.5831,0.6559
+Random Forest,0.9414,0.8217 (+/-0.0555),0.8891,0.8233,0.8549
+XGBoost,0.9363,0.8284 (+/-0.0416),0.8770,0.8187,0.8469
