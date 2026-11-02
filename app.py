@@ -563,7 +563,7 @@ so field teams can plan surveys and early removal where it matters most.</p></di
 # ──────────────────────────────────────────────────────────────────────────────
 
 elif page == "Zone Map":
-    st.markdown("# Lantana Suitability Zones of India")
+    st.markdown("# Lantana Suitability Zones of India (Asia)")
     st.caption(
         "Hover over a zone to see its class and score; click a hotspot for details. "
         "Use the layer control (top right) to switch layers on and off."

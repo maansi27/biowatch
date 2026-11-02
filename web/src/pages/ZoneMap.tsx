@@ -223,7 +223,7 @@ export default function ZoneMap() {
       <aside className="map-side map-controls">
         <div className="side-head">
           <span className="eyebrow">Zone map</span>
-          <h1>Lantana suitability zones of India</h1>
+          <h1>Lantana suitability zones of India (Asia)</h1>
           <p className="fine">Hover a zone for its class. Click a hotspot to see its details.</p>
         </div>
 
