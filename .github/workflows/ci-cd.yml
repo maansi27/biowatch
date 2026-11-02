@@ -1,7 +1,5 @@
 # BioWatch CI/CD
-#
-# Every push and pull request: run the Python tests and build the React site.
-# Every push to main: if both pass, deploy web/dist to GitHub Pages automatically.
+
 
 name: CI/CD
 
